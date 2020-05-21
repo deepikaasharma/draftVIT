@@ -12,7 +12,7 @@
 | Student responds to constructive feedback and implements suggested improvements                                                       |             |
 | Student resolves conflict in a professional and respectful manner                                                                     |             |
 | Student created and got approval for project                                                                                          |             |
-| <b>Technical                                                                                                                          |             |
+| <b>Technical</b>                                                                                                                      |             |
 | Student work renders an interactive frontend application in the browser                                                               |             |
 | Student work has at least 3 files all in a final-project folder                                                                       |             |
 | Student work uses Flexbox or CSS grid for layout and positioning                                                                      |             |
