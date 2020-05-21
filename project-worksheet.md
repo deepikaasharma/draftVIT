@@ -8,9 +8,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Day        | Deliverable                                          | Status      |
 | ---------- | ---------------------------------------------------- | ----------- |
-| May 25 | Project Description                                  | In Progress |
-| January 15 | Wireframes / Priority Matrix / Functional Components | In Progress |
-| January 15 | Core Application Structure (HTML, CSS, etc.)         | In Progress |
 | May 25 | Develop                                                  | In Progress |
 | May 26 | Develop                                                  | In Progress |
 | May 27 | Deploy                                                   | In Progress |
