@@ -8,13 +8,15 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Day        | Deliverable                                          | Status      |
 | ---------- | ---------------------------------------------------- | ----------- |
-| January 15 | Project Description                                  | In Progress |
+| May 25 | Project Description                                  | In Progress |
 | January 15 | Wireframes / Priority Matrix / Functional Components | In Progress |
 | January 15 | Core Application Structure (HTML, CSS, etc.)         | In Progress |
-| January 15 | Pseudocode / actual code                             | In Progress |
-| January 16 | Initial Clickable Model                              | In Progress |
-| January 17 | MVP                                                  | In Progress |
-| January 18 | Present                                              | In Progress |
+| May 25 | Develop                                                  | In Progress |
+| May 26 | Develop                                                  | In Progress |
+| May 27 | Deploy                                                   | In Progress |
+| May 28 | Present                                                  | In Progress |
+
+
 
 
 ## Project Description
