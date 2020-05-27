@@ -1,0 +1,24 @@
+#header-content {
+    display: flex;
+}
+#logo {
+    font-size: xx-large;
+    border: 1px solid;
+    padding: 5px;
+}
+#crumbs {
+    background-color: grey;
+    
+    
+}
+#crumbs ol li{
+    list-style: none;
+    letter-spacing: 1px;
+    
+}
+.crumb {
+    font-size: 25px;
+    display: inline;
+    padding: 30px;
+
+}

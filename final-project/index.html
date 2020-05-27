@@ -22,9 +22,31 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Kitchen App</title>
+    <link rel="stylesheet" href="./style.css"/>
   </head>
   <body>
+    <header>
+      <div id="header-content" >
+        <div></div>
+        <div id="logo">Your Kitchen</div>
+        <div style="margin: 0 auto;"></div>
+      </div>
+      <div>
+        <nav id="crumbs">
+          <ol>
+            <li class="crumb"><a>Home</a></li>
+            <li class="crumb"><a>Cook</a></li>
+            <li class="crumb"><a>Recipes</a></li>
+            <li class="crumb"><a>Inventory</a></li>
+            <li class="crumb"><a>Shop</a></li>
+            <li class="crumb"><a>Resources</a></li>
+            <li class="crumb"><a>hamburger</a></li>
+          </ol>
+        </nav>
+      </div>
+      
+    </header>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
