@@ -1,4 +1,4 @@
-#  Your Kitchen
+#  Your Kitchen. https://deepikaasharma.github.io/YourKitchen/home.html
 
 A Kitchen app, where users can store recipes, kitchen inventory/pantry, grocery list, and order supplies all in one place. Users will see the list of recipes with items currently in their current inventory/pantry, to help decide what to cook.
 
