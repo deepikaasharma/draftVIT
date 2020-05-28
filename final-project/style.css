@@ -91,17 +91,48 @@ main .main-content .cooking-instructions ul {
     display: inline;
     padding: 30px;
 }
-
-#home-content {
-    padding: 30px;
-    text-align: center;
-    margin-top: 400px;
-    margin-left: 400px;
-    margin-right: 400px;
-}
 #hamburger {
     max-width: 30px;
     max-height: 35px;
     padding-left: 30px;
     padding-right: auto;
+}
+#home-top-row {
+    display: flex;
+}
+#home-food-image img{
+    max-width: 500px;
+    max-height: 500px;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+#right-home-content article ul {
+    border: 1px solid;
+    list-style: none;
+    margin-left: -400px;
+    margin-right: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+#right-home-content article ul li {
+    padding: 2px;
+    padding-bottom: 10px;
+}
+#home-bottom-content {
+    margin-left: 100px;
+}
+#home-content {
+    padding: 30px;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: -1000px;
+    margin-right: 500px;
+}
+#left-home-content ul{
+    border: 1px solid;
+    padding: 20px;
+    
 }

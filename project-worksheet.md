@@ -6,8 +6,8 @@
 | ---------- | ---------------------------------------------------- | ----------- |
 | May 26 | Wireframes                                                | Complete |
 | May 27 | Feature List                                               | Complete |
-| May 28 | Priority Matrix                                            | In Progress |
-| May 28 | Project Worksheet                                     | In Progress |
+| May 28 | Priority Matrix                                            | Completed |
+| May 28 | Project Worksheet                                     | Completed |
 | May 28 | Deploy                                                       | In Progress |
 | May 28 | Present                                                      | In Progress |
 | May 28 | Project Submission                                   | In Progress |
@@ -19,6 +19,9 @@
 "Your Kitchen": A Kitchen application, where users can store recipes, kitchen inventory/pantry, grocery list, and order supplies all in one place. Users will see the list of recipes with items currently in their current inventory/pantry, to help decide what to cook.
 
 ## Wireframes
+
+Flow-chart
+https://res.cloudinary.com/dqkahfuz5/image/upload/v1590690827/VetsInTech%20Final%20Project%20Mockups/Flow%20Chart.png
 
 Home Page 
 https://res.cloudinary.com/dqkahfuz5/image/upload/v1590647790/VetsInTech%20Final%20Project%20Mockups/Home_Page_zwiuo2.png 
@@ -87,12 +90,12 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Javascript    |           Description           |
 | ------------- | :-----------------------------: |
-| Display cooking options | Develop an algorithm to find recipe options for the user |
+| Display cooking options | Develop an algorithm to find recipe options for the user - compared an array of inventory with an array of recipe ingredients, if inventory includes recipe ingredients, output that recipe on the page.
 | Display available items in the inventory  |  display recipes on-click   |
 | Display all saved recipes |  display recipes on-click   |
 
 
-Time frames are also key in the development cycle.  You have limited time to code all phases.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the project must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
+Time frames:
 
 | Component                                  | Priority (1-5) | Estimated Time | Actual Time |
 | -------------------------------------- | :-------------: | :------------: | :---------: |
@@ -111,38 +114,36 @@ recipe options for the user             |   5  H     |      5hrs      |     6hrs
 | Total                                              |    21 H     |    19hrs      |     23 hrs        |
 
 
-- Create Mock ups for home page, Inventory Page, Recipe page and Cook Page 
-- Create static list of inventory
-- Create static list of recipes
-- Write HTML and CSS for index header, nav bar and footer
-- Display available items in the inventory
-- Display all saved recipes
-- Develop an algorithm to find recipe options for the user
 
 ## Helper Functions
 | Includes | This will check if one data set includes elements from another data set |
 | for loop | Iterates through an array of elements|
+|console.log | outputs content on a console of the page.
 
 
 ## Additional Libraries
 
 MDN : Used to learn html elements and CSS styling, javaScript syntaxes, functions, prototype and apply to the project.
 
-Freecodecamp: Referred for CSS troubleshooting.
+Freecodecamp: Referred for CSS troubleshooting, fixed footer issue.
+
+https://confluence.atlassian.com: Referred for git commands.
 
 
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+The following function compares inventoryList with recipe and outputs if it matches. It narrows down recipe options for users based on their inventory.
 
-```
-{Object.keys(props).map((key, index) => {
-      			return (
-       				<li key={key + index}>{key} : {props[key]}</li>
-      			)
-    		})}
-```
+function canCook(inventoryList, recipeSushi){
+    for(let i = 0; i < recipeSushi.length; i++){
+        const current = recipeSushi[i];
+        if(!inventoryList.includes(current)){
+            return false;
+        }
+    }
+    return true;
+}
 
 ## Change Log
 
@@ -162,6 +163,6 @@ Outcome: Due to time constraints and complexity, created static inventory list a
  Resolution: used style none in CSS with high specifity
  
  Issues: Footer doesn't stay on the bottom of the page. 
- Resolution: 
+ Resolution: used position absolute and wrapped everything inside a page-container. 
 
 
