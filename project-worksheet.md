@@ -6,11 +6,11 @@
 | ---------- | ---------------------------------------------------- | ----------- |
 | May 26 | Wireframes                                                | Complete |
 | May 27 | Feature List                                               | Complete |
-| May 28 | Priority Matrix                                            | Completed |
-| May 28 | Project Worksheet                                     | Completed |
-| May 28 | Deploy                                                       | In Progress |
-| May 28 | Present                                                      | In Progress |
-| May 28 | Project Submission                                   | In Progress |
+| May 28 | Priority Matrix                                            | Complete |
+| May 28 | Project Worksheet                                           | Complete|
+| May 28 | Deploy                                                       | Complete |
+| May 28 | Present                                                      | Complete |
+| May 28 | Project Submission                                   | Complete |
 
 
 
