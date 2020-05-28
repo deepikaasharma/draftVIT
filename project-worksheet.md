@@ -2,32 +2,43 @@
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 | Day        | Deliverable                                          | Status      |
 | ---------- | ---------------------------------------------------- | ----------- |
-| May 25 | Develop                                                  | In Progress |
-| May 26 | Develop                                                  | In Progress |
-| May 27 | Deploy                                                   | In Progress |
-| May 28 | Present                                                  | In Progress |
-
+| May 26 | Wireframes                                                | Complete |
+| May 27 | Feature List                                               | Complete |
+| May 28 | Priority Matrix                                            | In Progress |
+| May 28 | Project Worksheet                                     | In Progress |
+| May 28 | Deploy                                                       | In Progress |
+| May 28 | Present                                                      | In Progress |
+| May 28 | Project Submission                                   | In Progress |
 
 
 
 ## Project Description
 
-This application/website will allow users to input a barcode and display all available information. Images will be displayed if available. Vision for this to eventually allow users to compare prices online. Store owners can also enter in an item to search for barcodes for uniformity and compliance.
+"Your Kitchen": A Kitchen application, where users can store recipes, kitchen inventory/pantry, grocery list, and order supplies all in one place. Users will see the list of recipes with items currently in their current inventory/pantry, to help decide what to cook.
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
+Home Page 
+https://res.cloudinary.com/dqkahfuz5/image/upload/v1590647790/VetsInTech%20Final%20Project%20Mockups/Home_Page_zwiuo2.png 
+
+Sign In Page 
+https://res.cloudinary.com/dqkahfuz5/image/upload/v1590647803/VetsInTech%20Final%20Project%20Mockups/Sign_in_Page_xjpwlf.png
 
 
-Initialization - https://drive.google.com/open?id=1o7zai60ewWNZwamnBFR3Nk8d4foCnu_G
-First Interaction - https://drive.google.com/open?id=1FD3gcGa8lwSQnL78Y13BRN5gtOmix4kN
-Second Interaction - https://drive.google.com/open?id=1-xj1lIJRKlfmnHiRJY67XOStwtQObn6f
+Inventory Page
+https://res.cloudinary.com/dqkahfuz5/image/upload/v1590647824/VetsInTech%20Final%20Project%20Mockups/Inventory_Page_nj3s9u.png
+
+
+Recipe Page
+https://res.cloudinary.com/dqkahfuz5/image/upload/v1590647831/VetsInTech%20Final%20Project%20Mockups/Recipe_Page_mqnjah.png
+
+
+Cook Page 
+https://res.cloudinary.com/dqkahfuz5/image/upload/v1590647836/VetsInTech%20Final%20Project%20Mockups/Cook_Page_ofy98n.png
+
+
 
 ## Priority Matrix
 
@@ -35,23 +46,31 @@ Include a full list of features that have been prioritized based on the `Time an
 
 Matrix - https://drive.google.com/open?id=1tGW8Yn2GTbeflBPdiqmE8oMLHAqymsWD
 
+
+
+
 ### MVP/PostMVP - 5min
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
 
-- User input barcode
-- Take search query by user input and use external api 
-- Render data on page in a list
-- Create item search information
+- Create static page with Inventory list 
+- Create static page with Recipes
+- Write algorithm for comparing inventory list with Recipe ingredients
+- Output result for cooking options 
 
 #### PostMVP 
 
+- Create database for inventory and recipes
+-  Allow users to add/delete items in the inventory
+- Allow users to add/delete recipes 
 - Add images to data
-- Incorporate a barcode scanner
+- Update Homepage with carousel
+-Allow users to create/edit Profile Page 
+- Allow users to create/edit grocery list
+-Allow users to search for grocery items to shop at third-party websites eg. Amazon
+-Allow users to order food for takeout/delivery from third-party vendors eg. Doordash
 
-#### [SAMPLE FROM A MAP BASED PROJECT](https://res.cloudinary.com/dvjtpejbw/image/upload/v1540221204/20181022_111216.jpg)
 
 ## Javascript Logic
 
@@ -74,21 +93,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total             |    H     |     10hrs      |             |
 
 ## Helper Functions
-Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
+| Includes | This will check if one data set includes elements from another data set |
+| for loop | Iterates through an array of elements|
 
-#### SAMPLE.....
-| Function   |                        Description                        |
-| ---------- | :-------------------------------------------------------: |
-| Capitalize | This will capitalize the first letter in a string of text |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
- 
- #### SAMPLE.....
-| Library   |           What it Does            |
-| --------- | :-------------------------------: |
-| Bootstrap | Used to help style my application |
-| Giphy API |      Used to get gifs to use      |
+
+MDN : Used to learn html elements and CSS styling, javaScript syntaxes, functions, prototype and apply to the project.
+
+Freecodecamp: Referred for CSS troubleshooting.
+
 
 
 ## Code Snippet
@@ -104,15 +118,17 @@ Use this section to include a brief code snippet of functionality that you are p
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
 
-#### SAMPLE.....
-| Original Plan           |                                           Outcome                                            |
-| ----------------------- | :------------------------------------------------------------------------------------------: |
-| Have one Book component | Split that component into BookInfo and BookInteraction as the component grew too complicated |
+Original Plan:
+Create database to allow users to add/edit inventory items, and recipes. 
+
+Outcome: Due to time constraints and complexity, created static inventory list and static recipes to compare and output cooking options. 
+
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
+ 
+ Footer doesn't stay on the bottom of the page. 
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                

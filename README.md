@@ -5,9 +5,18 @@ A Kitchen app, where users can store recipes, kitchen inventory/pantry, grocery 
 
 ## Deliverables
 1. Proposal: Project Worksheet with 
-        a. Wireframes/Mockup,
-        b. Feature List, 
+        a. Wireframes/Mockup
+                Links to Mockups and wireframes are in the Project Worksheet
+        b. Feature List:
+                > Quick access to all your Recipes
+                > Access to your kitchen inventory
+                > Figure out what to cook
+                >  Create a grocery list
+                > Grocery shopping
+                > Learn new recipes and share
         c. Priority Matrix
+          > Link to priority matrix in Project Worksheet
+        
 2. Project Submission:
         a. Github repo with project link, 
         b. Frequent Commits, 
