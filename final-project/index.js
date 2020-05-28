@@ -1,12 +1,12 @@
 
 
-var inventoryList= [tofu,salt,turmeric, oil,sugar, milk, almond ]
-var recipeScrambledTofu= [tofu, peppers, eggs, honey, chocolate, salt, tumeric, oil]
+var inventoryList= ["Fettucine Pasta", "Alfredo Sauce", "Olive Oil", "Salt", "Italian Seasoning", "Black Pepper", "Spinach","Broccoli"]
+var recipeFettucineAlfredo= ["Fettucine Pasta", "Alfredo Sauce", "Olive Oil", "Salt", "Italian Seasoning", "Black Pepper", "Spinach","Broccoli"]
+var recipeSushi=["Sushi Rice", "Seaweed Wrap", "Pickled Ginger", "Cream Cheese", "Soy Sauce", "Nori Kami Furikake Seasoning", "Cucumber", "Avocado", "Bread Crumbs"]
 
-function canCook(inventoryList, recipeScrambledTofu){
-
-    for(let i = 0; i < recipeScrambledTofu.length; i++){
-        const current = recipeScrambledTofu[i];
+function canCook(inventoryList, recipeFettucineAlfredo){
+    for(let i = 0; i < recipeFettucineAlfredo.length; i++){
+        const current = recipeFettucineAlfredo[i];
         if(!inventoryList.includes(current)){
             return false;
         }
@@ -14,4 +14,4 @@ function canCook(inventoryList, recipeScrambledTofu){
     return true;
 }
 
-console.log(canCook(inventoryList, recipeScrambledTofu))
+console.log(canCook(inventoryList, recipeFettucineAlfredo));
