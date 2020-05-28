@@ -23,7 +23,7 @@
 
 }
 main .main-content {
-    font-size: x-large;
+    font-size: 30px;
     padding: 10px 10px 20px 10px;
 
 }
@@ -47,4 +47,19 @@ button {
     list-style: none;
     padding: 40px;
     font-size: larger;
+}
+main .main-content .ingredients {
+    font-size: 25px;
+    padding-left: 20px;
+
+}
+main .main-content .ingredients ol {
+    font-size: 20px;
+}
+main .main-content .cooking-instructions {
+    font-size: 25px;
+    padding-left: 20px;
+}
+main .main-content .cooking-instructions ul {
+    font-size: 20px;
 }
