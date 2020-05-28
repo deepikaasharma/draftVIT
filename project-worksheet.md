@@ -44,7 +44,11 @@ https://res.cloudinary.com/dqkahfuz5/image/upload/v1590647836/VetsInTech%20Final
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matix.  
 
-Matrix - https://drive.google.com/open?id=1tGW8Yn2GTbeflBPdiqmE8oMLHAqymsWD
+Priority Matrix - 
+https://res.cloudinary.com/dqkahfuz5/image/upload/v1590677722/VetsinTech%20Priority%20Matrix/Priority_Matrix_hn86ak.png
+
+Prioritized Features - 
+https://res.cloudinary.com/dqkahfuz5/image/upload/v1590677730/VetsinTech%20Priority%20Matrix/Prioritized_Tasks_oypm9m.png
 
 
 
@@ -54,10 +58,14 @@ Matrix - https://drive.google.com/open?id=1tGW8Yn2GTbeflBPdiqmE8oMLHAqymsWD
 
 #### MVP 
 
-- Create static page with Inventory list 
-- Create static page with Recipes
-- Write algorithm for comparing inventory list with Recipe ingredients
-- Output result for cooking options 
+- Create Mock ups for home page, Inventory Page, Recipe page and Cook Page 
+- Create static list of inventory
+- Create static list of recipes
+- Write HTML and CSS for index header, nav bar and footer
+- Display available items in the inventory
+- Display all saved recipes
+- Develop an algorithm to find recipe options for the user
+
 
 #### PostMVP 
 
@@ -79,18 +87,37 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Javascript    |           Description           |
 | ------------- | :-----------------------------: |
-| Update Survey | shows the results of the survey |
-| Alert Score   |  alerts the user of the score   |
+| Display cooking options | Develop an algorithm to find recipe options for the user |
+| Display available items in the inventory  |  display recipes on-click   |
+| Display all saved recipes |  display recipes on-click   |
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the project must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
-| Component         | Priority | Estimated Time | Actual Time |
-| ----------------- | :------: | :------------: | :---------: |
-| Adding Form       |    H     |      3hrs      |    2hrs     |
-| Passing Functions |    H     |      2hrs      |   1.5hrs    |
-| Beautification    |    H     |      5hrs      |             |
-| Total             |    H     |     10hrs      |             |
+| Component                                  | Priority (1-5) | Estimated Time | Actual Time |
+| -------------------------------------- | :-------------: | :------------: | :---------: |
+| Create Mock ups for home page,
+Inventory Page, Recipe page, and 
+Cook Page                                      |   1 H     |      2hrs      |    3hrs     |
+| Create static list of inventory        |    2 H     |      1hrs      |   0.5hrs    |
+| Create static list of recipes           |    2 H     |      1hrs      |   0.5hrs     |
+| Write HTML and CSS for index
+header, nav bar and footer             |    3 H     |      4hrs      |    5hrs         |
+| Display available items 
+in the inventory                              |    4 H     |      3hrs      |     4hrs        |
+| Display all saved recipes              |   4  H     |     3hrs      |     4hrs        |
+| Develop an algorithm to find
+recipe options for the user             |   5  H     |      5hrs      |     6hrs        |
+| Total                                              |    21 H     |    19hrs      |     23 hrs        |
+
+
+- Create Mock ups for home page, Inventory Page, Recipe page and Cook Page 
+- Create static list of inventory
+- Create static list of recipes
+- Write HTML and CSS for index header, nav bar and footer
+- Display available items in the inventory
+- Display all saved recipes
+- Develop an algorithm to find recipe options for the user
 
 ## Helper Functions
 | Includes | This will check if one data set includes elements from another data set |
@@ -128,8 +155,13 @@ Outcome: Due to time constraints and complexity, created static inventory list a
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
  
- Footer doesn't stay on the bottom of the page. 
+ Issues: nav bar doesn'r display horizontally.
+ Resolution: increased specifity for CSS style
+ 
+ Issues:  Numbering in ordered list shows for nav bar and footer
+ Resolution: used style none in CSS with high specifity
+ 
+ Issues: Footer doesn't stay on the bottom of the page. 
+ Resolution: 
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+
