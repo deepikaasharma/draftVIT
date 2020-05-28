@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <header>
+  <div id="page-container">
+    <div id="content-wrap">
+      <header>
         <div id="header-content" >
           <div></div>
           <div id="logo">Your Kitchen</div>
@@ -15,33 +17,46 @@
         </div>
         <div>
           <nav id="crumbs">
+            <div>
             <ol>
-                <li class="crumb">Home</li>
-                <li class="crumb"><a href="./cook.html">Cook</a></li>
-                <li class="crumb"><a href="./recipe.html">Recipes</a></li>
-                <li class="crumb"><a href="./inventory.html">Inventory</a></li>
-                <li class="crumb"><a href="./shop.html">Shop</a></li>
-                <li class="crumb"><a href="./resources.html">Resources</a></li>
-                <li class="crumb">Hi Deepika</li>
-                <li class="crumb"><img src="" alt="hamburger icon"></li>
-              </ol>
+              <li class="crumb"><a href="./home.html">Home</a></li>
+              <li class="crumb"><a href="./cook.html">Cook</a></li>
+              <li class="crumb"><a href="./recipe.html">Recipes</a></li>
+              <li class="crumb"><a href="./inventory.html">Inventory</a></li>
+              <li class="crumb"><a href="./shop.html">Shop</a></li>
+              <li class="crumb"><a href="./resources.html">Resources</a></li>
+              <li class="crumb">Hi Deepika</li>
+              <li class="crumb"><img id="hamburger" src="./images/Hamburger_icon.svg.png" alt="hamburger icon"></li>
+            </ol>
+          </div>
           </nav>
         </div>
       </header>
       <div>
-          <main>
-              <div class="main-content">Your Recipes</div>
-              <div>
-                <button name="add-Recipe">Add New Recipe</button>
-              </div>
-              <div id="recipe-list">
-                <ol>
-                  <li class="recipes"><a href="./recipe1.html"><img src="./images/Food Images/Fettucine Alfredo/Broccoli Fettuccine close.jpg" alt="Fettucine Alfredo image">Fettucine Alfredo</a></li>
-                  <li class="recipes"><a href="./recipe2.html"><img src="./images/Food Images/Sushi/images-2.jpg" alt="sushi image">Sushi</a></li>
-                </ol>
-              </div>
-          </main>
-        </div>
-    <script src="./index.js"></script>
+        <main>
+            <div class="main-content">Your Recipes</div>
+            <div>
+              <button name="add-Recipe">Add New Recipe</button>
+            </div>
+            <div id="recipe-list">
+              <ol>
+                <li class="recipes"><a href="./recipe1.html"><img src="./images/Food Images/Fettucine Alfredo/Broccoli Fettuccine close.jpg" alt="Fettucine Alfredo image">Fettucine Alfredo</a></li>
+                <li class="recipes"><a href="./recipe2.html"><img src="./images/Food Images/Sushi/images-2.jpg" alt="sushi image">Sushi</a></li>
+              </ol>
+            </div>
+        </main>
+      </div>
+    <footer>
+      <div id="footer">
+        <ol>
+          <li class="foot"><a href="./about.html">About Us</a></li>
+          <li class="foot"><a href="./contact.html">Contact</a></li>
+          <li class="foot">Copyright 2020 YourKitchen.com. All Rights Reserved</li>
+          <li class="foot">Follow Us  on Twitter, Facebook, Instagram</li>
+        </ol>
+      </div>
+    </footer>
+  </div>
+<script src="./index.js"></script>
 </body>
 </html>

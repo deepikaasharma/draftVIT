@@ -13,5 +13,15 @@ function canCook(inventoryList, recipeFettucineAlfredo){
     }
     return true;
 }
+function canCook(inventoryList, recipeSushi){
+    for(let i = 0; i < recipeSushi.length; i++){
+        const current = recipeSushi[i];
+        if(!inventoryList.includes(current)){
+            return false;
+        }
+    }
+    return true;
+}
 
 console.log(canCook(inventoryList, recipeFettucineAlfredo));
+console.log(canCook(inventoryList, recipeSushi));
