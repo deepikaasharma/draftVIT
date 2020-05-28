@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <header>
+  <div id="page-container">
+    <div id="content-wrap">
+      <header>
         <div id="header-content" >
           <div></div>
           <div id="logo">Your Kitchen</div>
@@ -15,26 +17,51 @@
         </div>
         <div>
           <nav id="crumbs">
+            <div>
             <ol>
-                <li class="crumb"><a href="./home.html">Home</a></li>
-                <li class="crumb"><a href="./cook.html">Cook</a></li>
-                <li class="crumb"><a href="./recipe.html">Recipes</a></li>
-                <li class="crumb"><a href="./inventory.html">Inventory</a></li>
-                <li class="crumb"><a href="./shop.html">Shop</a></li>
-                <li class="crumb"><a href="./resources.html">Resources</a></li>
-                <li class="crumb">Hi Deepika</li>
-                <li class="crumb"><img src="" alt="hamburger"></li>
-              </ol>
+              <li class="crumb"><a href="./home.html">Home</a></li>
+              <li class="crumb"><a href="./cook.html">Cook</a></li>
+              <li class="crumb"><a href="./recipe.html">Recipes</a></li>
+              <li class="crumb"><a href="./inventory.html">Inventory</a></li>
+              <li class="crumb"><a href="./shop.html">Shop</a></li>
+              <li class="crumb"><a href="./resources.html">Resources</a></li>
+              <li class="crumb">Hi Deepika</li>
+              <li class="crumb"><img id="hamburger" src="./images/Hamburger_icon.svg.png" alt="hamburger icon"></li>
+            </ol>
+          </div>
           </nav>
         </div>
       </header>
-      <div>
-          <main class="main-content">
-              <div></div>
-              <div></div>
-              <div></div>
-          </main>
+      <main class="main-content">
+        <section>
+          <article></article>
+          <article id="home-content">
+            <header>
+              <p>Not sure what to cook today? Let us help you decide.</p>
+            </header>
+            <p>Your Kitchen helps you decide what to cook by comparing your inventory with 
+              your saved recipes.You can not only access your favorite recipes here, but also
+               manage you kitchen inventory, create grocery list,  shop for grocery, and share your
+               recipes with others. </p>
+          </article>
+        </section>
+          <div></div>
+          <div></div>
+          <div></div>
+      </main>
+    </div>
+    <footer>
+      <div id="footer">
+        <ol>
+          <li class="foot"><a href="./about.html">About Us</a></li>
+          <li class="foot"><a href="./contact.html">Contact</a></li>
+          <li class="foot">Copyright 2020 YourKitchen.com. All Rights Reserved</li>
+          <li class="foot">Follow Us  on Twitter, Facebook, Instagram</li>
+        </ol>
       </div>
-    <script src="./index.js"></script>
+    </footer>
+  </div>
+  <script src="./index.js" ></script>
 </body>
+
 </html>
