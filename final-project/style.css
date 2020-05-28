@@ -40,9 +40,14 @@ a {
     text-decoration: none;
 }
 
-#recipe-images {
+#recipe-images img {
     display: flex;
-    size: 100px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
 }
 
 button {
@@ -55,7 +60,25 @@ button {
     text-decoration: none;
     list-style: none;
     padding: 40px;
-    font-size: larger;
+    font-size: 20px;
+}
+#recipe-list .recipes img{
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 1000px;
+}
+#fettucine-cook {
+border: 1px solid;
+
+
+}
+#sushi-cook {
+    border: 1px solid;
+
 }
 main .main-content .ingredients {
     font-size: 25px;
@@ -131,8 +154,4 @@ main .main-content .cooking-instructions ul {
     margin-left: -1000px;
     margin-right: 500px;
 }
-#left-home-content ul{
-    border: 1px solid;
-    padding: 20px;
-    
-}
+
